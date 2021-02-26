@@ -21,10 +21,13 @@ environment:
   sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
+  we_slide: ^1.0.3
+  provider: ^4.3.3
+  stack: ^0.0.1
   flutter:
     sdk: flutter
 
-  miniplayer: ^0.6.1
+
 
 dev_dependencies:
   flutter_test:
@@ -40,6 +43,8 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+  assets:
+    - assets/home/books/
 
   # To add assets to your application, add an assets section, like this:
   # assets:
